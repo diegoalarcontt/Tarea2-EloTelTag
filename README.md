@@ -225,9 +225,9 @@ El proyecto utiliza Git y GitHub para:
 
 # Autores
 
-Diego Alarcón
-Ivan Carlson
-Joaquin Cordero
+- Diego Alarcón
+- Ivan Carlson
+- Joaquin Cordero
 
 ---
 
