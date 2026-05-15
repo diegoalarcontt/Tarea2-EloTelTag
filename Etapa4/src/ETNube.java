@@ -3,9 +3,11 @@ import java.util.ArrayList;
 public class ETNube {
 
     private ArrayList<String> reportes;
+    private int cantidadDetecciones;
 
     public ETNube() {
         reportes = new ArrayList<>();
+        cantidadDetecciones = 0;
     }
 
     public void agregarReporte(String reporte) {
@@ -15,10 +17,18 @@ public class ETNube {
         }
 
         reportes.add(reporte);
+
+        if (reporte.contains("detectó") || reporte.contains("detectado")) {
+            cantidadDetecciones++;
+        }
     }
 
     public ArrayList<String> getReportes() {
         return reportes;
+    }
+
+    public int getCantidadDetecciones() {
+        return cantidadDetecciones;
     }
 
     public String obtenerTextoReportes() {
