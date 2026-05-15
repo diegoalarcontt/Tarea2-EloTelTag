@@ -116,12 +116,6 @@ Click derecho sobre un celular para visualizar:
 
 ---
 
-# Autor
-
-Diego Alarcón
-
----
-
 # Repositorio GitHub
 
 Proyecto respaldado utilizando Git y GitHub.
