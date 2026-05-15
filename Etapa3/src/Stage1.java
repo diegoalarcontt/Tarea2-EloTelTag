@@ -87,7 +87,7 @@ public class Stage1 extends Application {
             System.out.println("No se encontró config.txt");
         }
 
-        TerritoryView territoryView = new TerritoryView(territory);
+        TerritoryView territoryView = new TerritoryView(territory, nube);
 
         MenuBar menuBar = new MenuBar();
         Menu simulationMenu = new Menu("Simulation");
